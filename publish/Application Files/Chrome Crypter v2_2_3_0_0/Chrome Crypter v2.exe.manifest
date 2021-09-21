@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="2.3.0.0" name="Chrome Crypter v2.exe" publicKeyToken="05bed7502674afbc" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Chrome Crypter v2" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Chrome Crypter v2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site" Unrestricted="true" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Chrome Crypter v2.exe" size="77312">
+      <assemblyIdentity name="Chrome Crypter v2" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>oq5YprNlVOUCbxVCA1oo9y2wg0Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Roshan-PC\Roshan" issuerKeyHash="173d93fdf8aff83432b932750f63eeed0b04876d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>MPoAJbd3wDP1REXQrGXQ0NlkOLk=</DigestValue></Reference></SignedInfo><SignatureValue>RAbuzXXxYSulFcCueKHelFdeyFIm6u0KMvCWPvmsbOW3j9aQwTRY+4bdpTUgQES2VMBbjKeHtGitYX0LM40mP0Ms7ozzuwVAajccR/2LoSwv2+BPyo8DuNRvz9KjQWpzxn1bwLb1csEUtx/C+Dl1hgGP/1+RZvFb0SNnBGDUXJ0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5EPp69rYHARFQ9Z/OywtSt6H3xi5+APY2CL2P3ICzN/L7b94+UJOA+JsdKUj7EZfvRLTdjAf83Sw2IaYHTJKxfddNQzOQeePosnMAFMWlkYm+akHx/oe738RJRcJh0d8ApxcW2nJvyfQm+BUqYln2F6mnv8sDjHk5Bz+96qq0IU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b93864d9d0d065acd04544f533c077b72500fa30" Description="" Url=""><as:assemblyIdentity version="2.3.0.0" name="Chrome Crypter v2.exe" publicKeyToken="05bed7502674afbc" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Roshan-PC\Roshan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>u7AAOENvRjT+Uvd219bOJBmm80Q=</DigestValue></Reference></SignedInfo><SignatureValue>xr9ySqJMV4GyauhfJyY3jlqRq8+sKJx/fDywnimxBzK927TreJ8s1mACiHTyWB/qdHkm863TgU3JEdpeuQwIPMfl6SbcVAEgi3zVSyMWT2oyRHI383Wz/g2euwMdlOqH8gOaH/7F/jAvEU/65zM1Qg9Ms99l5qamwrICHcYMOTI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5EPp69rYHARFQ9Z/OywtSt6H3xi5+APY2CL2P3ICzN/L7b94+UJOA+JsdKUj7EZfvRLTdjAf83Sw2IaYHTJKxfddNQzOQeePosnMAFMWlkYm+akHx/oe738RJRcJh0d8ApxcW2nJvyfQm+BUqYln2F6mnv8sDjHk5Bz+96qq0IU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQd5aJ+9SgQqJC4aB6WqdB3DANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAAUgBvAHMAaABhAG4ALQBQAEMAXABSAG8AcwBoAGEAbjAeFw0xMTExMTYwODE2MTFaFw0xMjExMTUxNDE2MTFaMCsxKTAnBgNVBAMeIABSAG8AcwBoAGEAbgAtAFAAQwBcAFIAbwBzAGgAYQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDkQ+nr2tgcBEVD1n87LC1K3offGLn4A9jYIvY/cgLM38vtv3j5Qk4D4mx0pSPsRl+9EtN2MB/zdLDYhpgdMkrF9101DM5B54+iycwAUxaWRib5qQfH+h7vfxElFwmHR3wCnFxbacm/J9Cb4FSpiWfYXqae/ywOMeTkHP73qqrQhQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAM0lZylMOjpnxbYYZHK6UlmqBqPFunLFre1TSVtg7kkN6ihjsz6Gm8ix7ymu3+7Li7cn1LmaRJVSyMHKt96TTs17at3YlAsOOiLfMkv8bL8bcVyLAaOchilRK7GNCZUO124ONR/W20s84nxFiC6z7QO+rOObPPAJ4qKHCDmOIHep</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

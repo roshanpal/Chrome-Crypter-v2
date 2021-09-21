@@ -1,0 +1,7 @@
+        Dim ProcList() As System.Diagnostics.Process
+        ProcList = System.Diagnostics.Process.GetProcesses()
+        For Each Proc As System.Diagnostics.Process In ProcList
+            If Proc.ToString.Contains("SbieCtrl") Then
+                System.Diagnostics.Process.GetCurrentProcess.Kill()
+            End If
+        Next
